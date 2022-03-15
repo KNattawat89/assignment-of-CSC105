@@ -1,0 +1,31 @@
+html {
+    font-size: 16px;
+}
+
+body{
+    font-size: 1rem;
+}
+ div{
+     font-size: 1.25em;
+ }
+
+/* div{
+    font-size:140%;
+  } */
+  
+  div[class$="block"]{
+    border: 1px solid black;
+    margin-top:3%;
+  }
+  
+
+  div[class$="d-inline-block"]{
+    color: green;
+  }
+
+  div[class$="md-inline-block"]{
+    color:blue;
+  }
+  div[class$="lg-inline-block"]{
+    color: red;
+  }
